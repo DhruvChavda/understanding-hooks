@@ -21,8 +21,8 @@ function Us1() {
       </Paper>
 
       <ButtonGroup color="primary" variant="contained">
-        <Button onClick={(x) => setCnt(x + 1)}>+ Counter</Button>
-        <Button onClick={(x) => setCnt(x - 1)}>- Counter</Button>
+        <Button onClick={()=>{setCnt((x) => x + 1)}}>+ Counter</Button>
+        <Button onClick={()=>{setCnt((x) => x - 1)}}>- Counter</Button>
         <Button onClick={plosFive}>+5 Counter</Button>
       </ButtonGroup>
     </React.Fragment>
