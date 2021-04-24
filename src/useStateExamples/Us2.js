@@ -1,11 +1,9 @@
 import React, { useState } from "react";
 import { Button, ButtonGroup, Paper, Typography } from "@material-ui/core";
 
-// DO NOT FOLLOW THIS
-// NEVER UPDATE STATE LIKE THIS
 // ALWAYS UPDATE USING PREVIOUS STATE
 
-function Us1() {
+function Us2() {
   const [cnt, setCnt] = useState(0);
 
   function plosFive() {
@@ -29,4 +27,4 @@ function Us1() {
   );
 }
 
-export default Us1;
+export default Us2;
