@@ -16,7 +16,7 @@ function Ue1() {
 
   return (
     <React.Fragment>
-      <Typography variant="h5" gutterbottom>
+      <Typography variant="h5" gutterBottom>
         Adder
       </Typography>
       <Button
