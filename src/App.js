@@ -1,11 +1,11 @@
 import "./App.css";
-import DfUe1 from "./dataFetching/DfUe1.js";
+import DfUe2 from "./dataFetching/DfUe2.js";
 
 function App() {
     return (
         <div className="App">
-            <p>useEffect Data fetching</p>
-            <DfUe1 />
+            <p>useEffect Selective Data fetching</p>
+            <DfUe2 />   
         </div>
     );
 }
