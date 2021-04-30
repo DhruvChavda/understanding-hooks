@@ -3,7 +3,7 @@
 ### Hello,
 This repository contains implementation of different React Hooks like useState, useEffect and many more..
 
-## To run this on loacl machine
+## To run this on local machine
 1. Clone this repository on your local machine
 ```bash
 git clone https://github.com/DhruvChavda/understanding-hooks.git
